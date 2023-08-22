@@ -1,0 +1,16 @@
+{
+  "name": "templet-site-solid",
+  "version": "0.0.2",
+  "description": "solid js website",
+  "main": "lib/index.js",
+  "scripts": {},
+  "license": "MIT",
+  "devDependencies": {},
+  "files": [
+    "config",
+    "mock",
+    "src",
+    "typings",
+    "tsconfig.json"
+  ]
+}
