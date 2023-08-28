@@ -1,6 +1,6 @@
 {
   "name": "templet-site-solid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "solid js website",
   "main": "lib/index.js",
   "scripts": {},
