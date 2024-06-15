@@ -1,14 +1,14 @@
-import { type ConfigType } from 'PackageNameByCore';
+import { type ConfigType, PACKAGENAME } from 'PackageNameByCore';
 
 const conf: Partial<ConfigType> = {
   devtool: false,
   bar: false,
   seo: {
     domain: '这里修改成你部署文档的域名',
-    nojekyll: true,
+    jekyll: false,
   },
-  baseName: '/libraryNameTemplate',
-  publicPath: '/libraryNameTemplate/',
+  basename: `/${PACKAGENAME}`,
+  publicPath: `/${PACKAGENAME}/`,
   bundleAnalyzer: false,
   fixBrowserRouter: {
     pathSegmentsToKeep: 1,
